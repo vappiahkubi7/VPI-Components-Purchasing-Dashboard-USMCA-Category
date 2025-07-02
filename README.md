@@ -1,4 +1,4 @@
-# 📦 VPI Components Purchasing Dashboard – USMCA Category
+# VPI Components Purchasing Dashboard – USMCA Category
 
 **This **Purchasing dashboard** provides real-time visibility into the purchasing performance of VPI components within the USMCA region. It tracks key procurement KPIs such as on-time delivery, lead times, and category spend, enabling procurement teams to identify supplier issues, optimize sourcing decisions, and improve supply chain efficiency for 7.2L engine manufacturing.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 🧾 INTRODUCTION
+## INTRODUCTION
 
 This project delivers a **data-driven purchasing dashboard** designed to support strategic sourcing decisions for **VPI (Value Package Introduction)** components in the USMCA region. Built using **Power BI** and **Excel**, the dashboard consolidates key purchasing data across suppliers, focusing on **delivery reliability**, **lead time consistency**, and **spend performance**.
 
@@ -14,7 +14,7 @@ The project simulates a real-world procurement scenario where stakeholders requi
 
 ---
 
-## 🚨 Problem Statement
+## Problem Statement
 
 In today’s fast-paced global supply chains, supplier delays and procurement inefficiencies continue to disrupt production and impact cost. To support the sourcing of 7.2L engine components across the USMCA region, the VPI Purchasing Team developed an interactive Power BI dashboard to monitor supplier performance, track delivery timelines, and provide real-time visibility into key purchasing KPIs.
 
@@ -24,7 +24,7 @@ Built using Power BI, Excel, and DAX, the solution delivers actionable insights 
 
 ---
 
-## 🎯 Aim of the Project
+## Aim of the Project
 
 - To create a **dynamic procurement dashboard** that offers stakeholders real-time insights into **supplier performance**, **delivery timelines**, **purchase orders**, and **spend trends**.  
 - To improve visibility into **vendor reliability** and **category spend**, enabling smarter negotiation, risk mitigation, and forecasting strategies.
@@ -42,7 +42,7 @@ Built using Power BI, Excel, and DAX, the solution delivers actionable insights 
 
 ---
 
-## 🧰 SQL & Power BI Tools and Features Used
+## SQL & Power BI Tools and Features Used
 
 - **Excel** for initial data transformation and formatting  
 - **Power BI Desktop** for dashboard design  
@@ -58,7 +58,7 @@ Built using Power BI, Excel, and DAX, the solution delivers actionable insights 
 
 ---
 
-## 📦 Modelling
+## Modelling
 
 The data model was structured around **three core tables**:  
 - `PurchaseOrders`: Contains order lines, delivery dates, and quantities  
@@ -74,7 +74,7 @@ Relationships were created between `SupplierID` and `OrderID` fields to ensure a
 
 ---
 
-## 📊 Data Analysis and Visualization
+## Data Analysis and Visualization
 
 **Main Dashboard Panels Include:**
 
@@ -94,29 +94,29 @@ Relationships were created between `SupplierID` and `OrderID` fields to ensure a
       FILTER(DeliveryLogs, DeliveryLogs[DeliveredOnTime] = FALSE())
   )
 
-- 🔹 **Supplier Performance Overview**  
+- **Supplier Performance Overview**  
   - Bar chart comparing On-Time Delivery % by supplier  
   - Highlighted suppliers with <80% reliability  
 
-- 🔹 **Delivery Timeline Tracker**  
+- **Delivery Timeline Tracker**  
   - Line chart of average delivery days per vendor over time  
   - Trend line showing improvements or deterioration  
 
-- 🔹 **PO Fulfillment Matrix**  
+- **PO Fulfillment Matrix**  
   - Matrix view for POs issued vs delivered by region  
   - Filters for country, month, and category  
 
-- 🔹 **Spend by Category**  
+- **Spend by Category**  
   - Treemap and stacked bar charts showing spend distribution by part category  
   - Breakdown by USMCA region  
 
-- 🔹 **Late Delivery Alert Table**  
+- **Late Delivery Alert Table**  
   - Conditional formatting used to flag suppliers with late deliveries  
   - Custom tooltip to display delivery deviation in days  
 
 ---
 
-## ✅ Recommendation
+## Recommendation
 
 - **Initiate strategic supplier reviews** for the 3 vendors with <75% on-time performance  
 - Adjust **safety stock and lead time buffers** based on historic delay trends  
@@ -125,7 +125,7 @@ Relationships were created between `SupplierID` and `OrderID` fields to ensure a
 
 ---
 
-## 📁 Project Files
+## Project Files
 
 - `PowerBI_Report.pbix` – Complete Power BI file  
 - `data/` – Contains sanitized sample Excel datasets  
@@ -134,7 +134,7 @@ Relationships were created between `SupplierID` and `OrderID` fields to ensure a
 
 ---
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 - Gained experience designing a procurement-focused dashboard using **real-world KPIs**  
 - Applied **DAX logic** to build dynamic performance metrics  
@@ -143,7 +143,7 @@ Relationships were created between `SupplierID` and `OrderID` fields to ensure a
 
 ---
 
-## 🖼️ Preview
+## Preview
 
 ![Dashboard Screenshot](screenshots/dashboard-overview.png)
 
