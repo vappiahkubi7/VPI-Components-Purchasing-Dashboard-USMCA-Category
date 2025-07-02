@@ -31,7 +31,7 @@ Built using Power BI, Excel, and DAX, the solution delivers actionable insights 
 
 ---
 
-## 🛠 Skills and Concepts Demonstrated
+## Skills and Concepts Demonstrated
 
 - Procurement analytics and supply chain visualization  
 - DAX (Data Analysis Expressions) for KPI modeling  
